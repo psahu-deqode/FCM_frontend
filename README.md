@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # FCM_multiple_device_test
 
 Create project at Firebase and keep the Sender Id, Sever Key with you. To know how to create project read this https://medium.com/@ashok.tankala/web-push-notifications-or-cloud-messaging-using-firebase-fcm-5a22ba559e58
