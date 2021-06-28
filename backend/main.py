@@ -31,8 +31,7 @@ def main():
     token = driver.find_element_by_id("token").text
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'key=AAAAfRVjqX8:APA91bHtxxpFWg33uD4Wj-Vlp915l6WZVjOZrbpkwgTlP5GnIrgLLHnDRlxTcrg9-Y'
-                         '-7f95PTR6AB_GwF5BahUtPjsi3_f3aRIrAFXcQH5HoK-B9suEqXPikQr8tLBbgCjnNAR-oGPgR',
+        'Authorization': 'key=AUTHORIZATION_KEY',
         'Content-Type': 'application/json'
     }
     url = 'https://fcm.googleapis.com/fcm/send'
