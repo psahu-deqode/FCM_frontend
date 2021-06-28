@@ -56,7 +56,7 @@ def main():
 
     # if the notification is not received and the browser wait time expires, the received status will be "pending"
     try:
-        WebDriverWait(driver, 360).until(
+        WebDriverWait(driver, 3600).until(
             EC.text_to_be_present_in_element((By.ID, "notification"), "title")
         )
         received_status = "Received"
@@ -74,6 +74,6 @@ def main():
 
 if __name__ == '__main__':
 
-    for t in range(1):
+    for t in range(10):
         t = threading.Thread(target=main)
         t.start()
