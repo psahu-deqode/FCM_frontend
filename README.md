@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FCM_multiple_device_test
 
 Create project at Firebase and keep the Sender Id, Sever Key with you. To know how to create project read this https://medium.com/@ashok.tankala/web-push-notifications-or-cloud-messaging-using-firebase-fcm-5a22ba559e58
@@ -29,9 +30,3 @@ curl -X POST -H "Authorization: key=SERVER_KEY" -H "Content-Type: application/js
   "to": "USER_TOKEN"
 }' https://fcm.googleapis.com/fcm/send
 ```
-
-
-# FCM_backend
-
-Run main.py and get the event.cv=sv file with all the tokens.
-After getting the file run send_notification.py to send notification to the collected tokens.
